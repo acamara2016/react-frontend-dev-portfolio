@@ -39,11 +39,10 @@
         "startDate": "2021",
         "description": "This was my first freelancer project. Planner app is web application made using React js. It was made for online tutors to plan their student agenda. The application uses Firebase to keep track of the agenda. I learned a lot struggling with connecting the data from Firebase into the application native agenda. To be honest, this project made me fall in love with Material Design Bootsrap",
         "images": [
-          "images/booking/booking1.png",
-          "images/booking/booking2.png",
-          "images/booking/booking3.png",
-          "images/booking/booking4.png",
-          "images/booking/booking5.png"
+          "images/booking/booking1.png"
+        ],
+        "videos":[
+          "videos/booking/Booking.mov"
         ],
         "url": "https://emi-sweb.web.app",
         "technologies": [
@@ -82,9 +81,11 @@
         "title": "Planner App",
         "startDate": "2020",
         "description": "This was my first freelancer project. Planner app is web application made using React js. It was made for online tutors to plan their student agenda. The application uses Firebase to keep track of the agenda. I learned a lot struggling with connecting the data from Firebase into the application native agenda. To be honest, this project made me fall in love with Material Design Bootsrap",
-        "images": [
-          "",
-          "images/portfolio/animal-shelter/p2.jpg"
+        "videos":[
+          "videos/planner/planner.mov"
+        ],
+        "images":[
+          "videos/planner/emi.png"
         ],
         "url": "https://emi-sweb.web.app",
         "technologies": [
@@ -113,6 +114,10 @@
           "images/portfolio/adventure/p1.jpg",
           "images/portfolio/adventure/p2.jpg"
         ],
+        "videos":[
+          "videos/fayaferme/fayaferme.mov"
+        ],
+
         "url": "https://github.com",
         "technologies": [
           {
@@ -161,9 +166,12 @@
         "title": "TchidenXpress",
         "startDate": "2018",
         "description": "TchidenXpress is an Android application for online ",
-        "images": [
+        "videos": [
           "videos/video.mp4",
           "videos/video.mp4"
+        ],
+        "images":[
+          "videos/planner/planner.mov"
         ],
         "url": "https://github.com",
         "technologies": [
