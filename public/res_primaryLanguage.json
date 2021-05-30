@@ -1,7 +1,7 @@
 {
     "basic_info": {
       "description_header": "Hi",
-      "description": "👋 I'm Davina Griss. Fictional person for preview purposes :) I'm working with newest front-end frameworks like Angular, React and Vue. What you are seeing now is portfolio template from Dorota1997. If you like this portfolio template, make sure to ⭐ the repository to make it more recognizable for other users. Thank you 💜",
+      "description": "👋 I'm Adama Camara. I have a bachelor degree in Applied Computer Science Student from Dalhousie. I consider my self as a fast learner and a teamplayer. I have extensive experience with building back-end endpoints using Express, MySQL, MongoDB & Firebase. I also have skill with building and implementing front-end design using React js, Android XML, Bootstrap & Material Design. The main languages that I became familiar with are Java, JavaScript, Kotlin, and PHP. I have a love for architecture and coding is my tool to build usable softwares. I love coding for hours and get in the zone with some Lofi in the background",
       "section_name": {
         "about": "About me",
         "projects": "Projects",
@@ -11,9 +11,9 @@
     },
     "projects": [
       {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "The most expanded application I had opportunity to work with. I've learned many technologies and my code was reviewed by awesome curator. Application handles all adoption processess and allows to store all evidence on adopting animals from animal shelter.",
+        "title": "ScanMe",
+        "startDate": "2018",
+        "description": "ScanMe is an Android application that scans product's barcodes and compare the product price online. The application recognizes products such as: groceries, pharmacy products, bathroom items and electronics. The application uses the Zxing Library to scan barcodes. The barcodes are sent into our price search algorithm and return with the best price and the least amount of time before the user can get the product.",
         "images": [
           "images/portfolio/animal-shelter/p1.jpg",
           "images/portfolio/animal-shelter/p2.jpg"
@@ -21,43 +21,121 @@
         "url": "",
         "technologies": [
           {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
+            "class": "devicon-android-plain",
+            "name": "Android"
           },
           {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
+            "class": "devicon-java-plain",
+            "name": "Java"
           },
           {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
+            "class": "devicon-firebase-plain",
+            "name": "Firebase"
           }
         ]
       },
       {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Personal project for study subject. I was responsible for testing photography application that optimizes images with popular algorithms used by graphic editors like Pixlr or Adobe Photoshop. I've earned A grade :)",
+        "title": "Classis Movies Ticket Online Booking",
+        "startDate": "2021",
+        "description": "This was my first freelancer project. Planner app is web application made using React js. It was made for online tutors to plan their student agenda. The application uses Firebase to keep track of the agenda. I learned a lot struggling with connecting the data from Firebase into the application native agenda. To be honest, this project made me fall in love with Material Design Bootsrap",
         "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
+          "images/booking/booking1.png",
+          "images/booking/booking2.png",
+          "images/booking/booking3.png",
+          "images/booking/booking4.png",
+          "images/booking/booking5.png"
+        ],
+        "url": "https://emi-sweb.web.app",
+        "technologies": [
+          {
+            "class": "devicon-react-plain",
+            "name": "React"
+          },
+          {
+            "class": "devicon-redux-plain",
+            "name": "Redux"
+          },
+          {
+            "class": "devicon-redux-plain",
+            "name": "sequelize"
+          },
+          {
+            "class": "devicon-mongodb-plain",
+            "name": "Firebase"
+          },
+          {
+            "class": "devicon-bootstrap-plain",
+            "name": "Bootstrap"
+          },
+          {
+            "class": "devicon-express-plain",
+            "name": "Express"
+          }
+          ,
+          {
+            "class": "devicon-materialui-plain",
+            "name": "Material UI"
+          }
+        ]
+      },
+      {
+        "title": "Planner App",
+        "startDate": "2020",
+        "description": "This was my first freelancer project. Planner app is web application made using React js. It was made for online tutors to plan their student agenda. The application uses Firebase to keep track of the agenda. I learned a lot struggling with connecting the data from Firebase into the application native agenda. To be honest, this project made me fall in love with Material Design Bootsrap",
+        "images": [
+          "",
+          "images/portfolio/animal-shelter/p2.jpg"
+        ],
+        "url": "https://emi-sweb.web.app",
+        "technologies": [
+          {
+            "class": "devicon-react-plain",
+            "name": "React"
+          },
+          {
+            "class": "devicon-firebase-plain",
+            "name": "Firebase"
+          },
+          {
+            "class": "devicon-materialui-plain",
+            "name": "Material UI"
+          },
+          {
+            "class": "devicon-bootstrap-plain",
+            "name": "Bootstrap"
+          }
+        ]
+      },{
+        "title": "Faya Ferme",
+        "startDate": "2019",
+        "description": "Made for family owned business in Mali, Africa. It's a React js e-commerce application that uses Redux to create temporary carts.",
+        "images": [
+          "images/portfolio/adventure/p1.jpg",
+          "images/portfolio/adventure/p2.jpg"
         ],
         "url": "https://github.com",
         "technologies": [
           {
-            "class": "devicon-react-original",
+            "class": "devicon-react-plain",
             "name": "React"
           },
           {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
+            "class": "devicon-redux-plain",
+            "name": "Redux"
+          },
+          {
+            "class": "devicon-materialui-plain",
+            "name": "Material UI"
+          },
+          {
+            "class": "devicon-bootstrap-plain",
+            "name": "Bootstrap"
           }
         ]
-      },
-      {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "One of the first apps I was working on my internship. I had to develop front-end implementation for app that shows 3D models of known buildings. This was also my first project in Angular framework. I've learned a lot!",
+      },{
+        "title": "Hangout Chatbox",
+        "startDate": "2020",
+        "description": "Chat application using Firebase and Google auth to login and create users.! It was my first chat application with React js and learned a lot from the mechanism involved in creating Chat applications. I also learned how to write rules on database access and how to implement Google auth",
         "images": [
           "images/portfolio/adventure/p1.jpg",
           "images/portfolio/adventure/p2.jpg"
@@ -77,41 +155,92 @@
             "name": "C#"
           }
         ]
+      },
+      
+      {
+        "title": "TchidenXpress",
+        "startDate": "2018",
+        "description": "TchidenXpress is an Android application for online ",
+        "images": [
+          "videos/video.mp4",
+          "videos/video.mp4"
+        ],
+        "url": "https://github.com",
+        "technologies": [
+          {
+            "class": "devicon-react-original",
+            "name": "React"
+          },
+          {
+            "class": "devicon-javascript-plain",
+            "name": "JavaScript"
+          }
+        ]
       }
     ],
     "experience": [
       {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - present",
+        "company": "MatchProfessor Inc",
+        "title": "Project Manager",
+        "years": "2020 - 2021 Winter",
+        "className": "fab fa-php experience-icon",
         "mainTech": [
-          "Angular 8/9/10"
+          "PHP"
         ],
         "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          ".NET Core",
-          "SignalR",
-          "Angular Material"
+          "Stripe API",
+          "HTML/CSS",
+          "PHP",
+          "SCRUM",
+          "DevOps Azure",
+          "Github",
+          "Testing & Review meetings",
+          "Interviews"
         ]
       },
       {
-        "company": "Serros Solutions",
-        "title": "Intern",
-        "years": "01.2018 - 09.2019",
+        "company": "Alliance Française Halifax",
+        "title": "Front-End Developer",
+        "years": "2019 - 2020 Winter",
+        "className": "fab fa-android experience-icon",
+        "detail": "Collaborated with the Alliance Francaise Team in the development of their mobile application",
         "mainTech": [
-          "Angular 7/8"
+          "Android Studio"
         ],
         "technologies": [
-          "RxJS",
-          "Django",
-          "PHP",
-          "JavaScript",
-          "DHTMLX Gantt"
+          "REST API",
+          "Java",
+          "OpenStreetMap",
+          "GitLab"
+        ]
+      },
+      {
+        "company": "Dalhousie University",
+        "title": "Product Designer",
+        "years": "2018 - 2019 Winter",
+        "className": "fab fa-palette experience-icon",
+        "detail": "Collaborated with team Hexahedron Colliders in the development of a user interface for Rewards Application for Dalhousie Computer Science Society.",
+        "mainTech": [
+          "Adobe XD"
+        ],
+        "technologies": [
+          "Google Material Design",
+          "SCRUM",
+          "Interviews",
+          "GitLab"
+        ]
+      },
+      {
+        "company": "Hoyt's Moving And Storage",
+        "title": "Mover & Driver",
+        "className": "fab fa-people-carry experience-icon",
+        "years": "2018 - 2019 Summer",
+        "detail": "",
+        "mainTech": [
+          "N/A"
+        ],
+        "technologies": [
+          "N/A"
         ]
       }
     ]

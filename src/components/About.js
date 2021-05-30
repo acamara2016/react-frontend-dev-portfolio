@@ -2,7 +2,16 @@ import React, { Component } from "react";
 import { Icon } from "@iconify/react";
 import angularIcon from "@iconify/icons-logos/angular-icon";
 import reactIcon from "@iconify/icons-logos/react";
+import Profile from "../images/prof.jpeg"
 import vueIcon from "@iconify/icons-logos/vue";
+import androidIcon from '@iconify-icons/openmoji/android';
+import phpIcon from '@iconify-icons/cib/php';
+import mongodbIcon from '@iconify-icons/logos/mongodb';
+import firebaseIcon from '@iconify-icons/logos/firebase';
+import bootstrapIcon from '@iconify-icons/logos/bootstrap';
+import materialUi from '@iconify-icons/logos/material-ui';
+import mysqlIcon from '@iconify-icons/cib/mysql';
+
 
 class About extends Component {
   render() {
@@ -24,14 +33,15 @@ class About extends Component {
           <div className="row center mx-auto mb-5">
             <div className="col-md-4 mb-5 center">
               <div className="polaroid">
-                <span style={{ cursor: "auto" }}>
+                <span style={{ cursor: "auto", marginLeft:'100px', marginRight:'35px'}}>
                   <img
+                    style={{maxWidth:'inherit'}}
                     height="250px"
-                    src={profilepic}
+                    src={Profile}
                     alt="Avatar placeholder"
                   />
                   <Icon
-                    icon={angularIcon}
+                    icon={androidIcon}
                     style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
                   />
                   <Icon
@@ -39,7 +49,27 @@ class About extends Component {
                     style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
                   />
                   <Icon
-                    icon={vueIcon}
+                    icon={phpIcon}
+                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
+                  />
+                  <Icon
+                    icon={mongodbIcon}
+                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
+                  />
+                  <Icon
+                    icon={firebaseIcon}
+                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
+                  />
+                  <Icon
+                    icon={bootstrapIcon}
+                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
+                  />
+                  <Icon
+                    icon={materialUi}
+                    style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
+                  />
+                   <Icon
+                    icon={mysqlIcon}
                     style={{ fontSize: "400%", margin: "9% 5% 0 5%" }}
                   />
                 </span>

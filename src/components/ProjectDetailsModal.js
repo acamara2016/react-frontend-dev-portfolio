@@ -1,5 +1,6 @@
 import React, { Component } from "react";
 import { Modal } from "react-bootstrap";
+import { ReactVideo } from "reactjs-media";
 import AwesomeSlider from "react-awesome-slider";
 import AwesomeSliderStyles from "../scss/light-slider.scss";
 import AwesomeSliderStyles2 from "../scss/dark-slider.scss";
@@ -9,6 +10,7 @@ class ProjectDetailsModal extends Component {
     if (this.props.data) {
       const technologies = this.props.data.technologies;
       const images = this.props.data.images;
+      const videos = this.props.data.videos;
       var title = this.props.data.title;
       var description = this.props.data.description;
       var url = this.props.data.url;
@@ -32,6 +34,14 @@ class ProjectDetailsModal extends Component {
           var img = images.map((elem, i) => {
             return <div key={i} data-src={elem} />;
           });
+        }
+        if(this.props.data.videos){
+          var video = videos.map((video, i) =>{
+            return <ReactVideo
+                      src={video}
+                      primaryColor="red"
+                    />
+          } )
         }
       }
     }
