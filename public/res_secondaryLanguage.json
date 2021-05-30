@@ -1,116 +1,247 @@
 {
-    "basic_info": {
-      "description_header": "Cześć",
-      "description": "👋 Jestem Davina Griss. Fikcyjna osoba na potrzeby demonstracji. Pracuję z najnowszymi frameworkami front-end takimi jak Angular, React i Vue. To co teraz widzisz to szablon portfolio od Dorota1997. Jeżeli podoba Ci się ten szablon portfolio nie zapomnij o ⭐, żeby było bardziej rozpoznawalne dla innych użytkowników. Dzięki 💜",
-      "section_name": {
-        "about": "O mnie",
-        "projects": "Projekty",
-        "skills": "Umiejętności",
-        "experience": "Doświadczenie"
-      }
+  "basic_info": {
+    "description_header": "Salut",
+    "description": "👋 I'm Adama Camara. I have a bachelor degree in Applied Computer Science Student from Dalhousie. I consider my self as a fast learner and a teamplayer. I have extensive experience with building back-end endpoints using Express, MySQL, MongoDB & Firebase. I also have skill with building and implementing front-end design using React js, Android XML, Bootstrap & Material Design. The main languages that I became familiar with are Java, JavaScript, Kotlin, and PHP. I have a love for architecture and coding is my tool to build usable softwares. I love coding for hours and get in the zone with some Lofi in the background",
+    "section_name": {
+      "about": "About me",
+      "projects": "Projects",
+      "skills": "Skills",
+      "experience": "Experience"
+    }
+  },
+  "projects": [
+    {
+      "title": "ScanMe",
+      "startDate": "2018",
+      "description": "ScanMe is an Android application that scans product's barcodes and compare the product price online. The application recognizes products such as: groceries, pharmacy products, bathroom items and electronics. The application uses the Zxing Library to scan barcodes. The barcodes are sent into our price search algorithm and return with the best price and the least amount of time before the user can get the product.",
+      "images": [
+        "images/portfolio/animal-shelter/p1.jpg",
+        "images/portfolio/animal-shelter/p2.jpg"
+      ],
+      "url": "",
+      "technologies": [
+        {
+          "class": "devicon-android-plain",
+          "name": "Android"
+        },
+        {
+          "class": "devicon-java-plain",
+          "name": "Java"
+        },
+        {
+          "class": "devicon-firebase-plain",
+          "name": "Firebase"
+        }
+      ]
     },
-    "projects": [
-      {
-        "title": "Animal Shelter",
-        "startDate": "2020",
-        "description": "Najbardziej rozbudowana aplikacja nad którą miałam okazję pracować. Poznałam dużo technologii a mój kod by sprawdzany przez super opiekuna. Aplikacja obsługuje wszystkie procesy adopcji i pozwala na przechowywanie wszelkiej dokumentacji związanej z adopcją zwierząt ze schroniska.",
-        "images": [
-          "images/portfolio/animal-shelter/p1.jpg",
-          "images/portfolio/animal-shelter/p2.jpg"
-        ],
-        "url": "",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      },
-      {
-        "title": "Photography",
-        "startDate": "2018",
-        "description": "Osobisty projekt na przedmiot ze studiów. Byłam odpowiedzilna za testowanie aplikacji, która optymalizuje zdjęcia z pomocą popularnych algorytmów używanych przed edytory grafiki takie jak Pixlr czy Adobe Photoshop. Otrzymałam 5-tkę za projekt :)",
-        "images": [
-          "images/portfolio/photography/p1.jpg",
-          "images/portfolio/photography/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-react-original",
-            "name": "React"
-          },
-          {
-            "class": "devicon-javascript-plain",
-            "name": "JavaScript"
-          }
-        ]
-      },
-      {
-        "title": "3D Object Viewer",
-        "startDate": "2015",
-        "description": "Jedna z pierwszych aplikacji nad którymi pracowałam na stażu. Musiałam przygotować front-end dla aplikacji, która pokazuje modele 3D znanych budynków. To był także mój pierwszy projekt w frameworku Angular. Dużo się nauczyłam!",
-        "images": [
-          "images/portfolio/adventure/p1.jpg",
-          "images/portfolio/adventure/p2.jpg"
-        ],
-        "url": "https://github.com",
-        "technologies": [
-          {
-            "class": "devicon-angularjs-plain",
-            "name": "Angular"
-          },
-          {
-            "class": "devicon-typescript-plain",
-            "name": "TypeScript"
-          },
-          {
-            "class": "devicon-csharp-plain",
-            "name": "C#"
-          }
-        ]
-      }
-    ],
-    "experience": [
-      {
-        "company": "DefOpenSource",
-        "title": "Front-End Developer",
-        "years": "10.2019 - obecnie",
-        "mainTech": [
-          "Angular 8/9/10"
-        ],
-        "technologies": [
-          "REST API",
-          "RxJS",
-          "JavaScript",
-          "Bootstrap",
-          "MDBootstrap",
-          "EF Core",
-          "Angular Material"
-        ]
-      },
-      {
-        "company": "Serros Solutions",
-        "title": "Stażystka",
-        "years": "01.2018 - 09.2019",
-        "mainTech": [
-          "Angular 7/8"
-        ],
-        "technologies": [
-          "REST API",
-          "RxJS",
-          "Swagger",
-          "JavaScript",
-          "DHTMLX Gantt"
-        ]
-      }
-    ]
-  }
+    {
+      "title": "Classis Movies Ticket Online Booking",
+      "startDate": "2021",
+      "description": "This was my first freelancer project. Planner app is web application made using React js. It was made for online tutors to plan their student agenda. The application uses Firebase to keep track of the agenda. I learned a lot struggling with connecting the data from Firebase into the application native agenda. To be honest, this project made me fall in love with Material Design Bootsrap",
+      "images": [
+        "images/booking/booking1.png",
+        "images/booking/booking2.png",
+        "images/booking/booking3.png",
+        "images/booking/booking4.png",
+        "images/booking/booking5.png"
+      ],
+      "url": "https://emi-sweb.web.app",
+      "technologies": [
+        {
+          "class": "devicon-react-plain",
+          "name": "React"
+        },
+        {
+          "class": "devicon-redux-plain",
+          "name": "Redux"
+        },
+        {
+          "class": "devicon-redux-plain",
+          "name": "sequelize"
+        },
+        {
+          "class": "devicon-mongodb-plain",
+          "name": "Firebase"
+        },
+        {
+          "class": "devicon-bootstrap-plain",
+          "name": "Bootstrap"
+        },
+        {
+          "class": "devicon-express-plain",
+          "name": "Express"
+        }
+        ,
+        {
+          "class": "devicon-materialui-plain",
+          "name": "Material UI"
+        }
+      ]
+    },
+    {
+      "title": "Planner App",
+      "startDate": "2020",
+      "description": "This was my first freelancer project. Planner app is web application made using React js. It was made for online tutors to plan their student agenda. The application uses Firebase to keep track of the agenda. I learned a lot struggling with connecting the data from Firebase into the application native agenda. To be honest, this project made me fall in love with Material Design Bootsrap",
+      "images": [
+        "",
+        "images/portfolio/animal-shelter/p2.jpg"
+      ],
+      "url": "https://emi-sweb.web.app",
+      "technologies": [
+        {
+          "class": "devicon-react-plain",
+          "name": "React"
+        },
+        {
+          "class": "devicon-firebase-plain",
+          "name": "Firebase"
+        },
+        {
+          "class": "devicon-materialui-plain",
+          "name": "Material UI"
+        },
+        {
+          "class": "devicon-bootstrap-plain",
+          "name": "Bootstrap"
+        }
+      ]
+    },{
+      "title": "Faya Ferme",
+      "startDate": "2019",
+      "description": "Made for family owned business in Mali, Africa. It's a React js e-commerce application that uses Redux to create temporary carts.",
+      "images": [
+        "images/portfolio/adventure/p1.jpg",
+        "images/portfolio/adventure/p2.jpg"
+      ],
+      "url": "https://github.com",
+      "technologies": [
+        {
+          "class": "devicon-react-plain",
+          "name": "React"
+        },
+        {
+          "class": "devicon-redux-plain",
+          "name": "Redux"
+        },
+        {
+          "class": "devicon-materialui-plain",
+          "name": "Material UI"
+        },
+        {
+          "class": "devicon-bootstrap-plain",
+          "name": "Bootstrap"
+        }
+      ]
+    },{
+      "title": "Hangout Chatbox",
+      "startDate": "2020",
+      "description": "Chat application using Firebase and Google auth to login and create users.! It was my first chat application with React js and learned a lot from the mechanism involved in creating Chat applications. I also learned how to write rules on database access and how to implement Google auth",
+      "images": [
+        "images/portfolio/adventure/p1.jpg",
+        "images/portfolio/adventure/p2.jpg"
+      ],
+      "url": "https://github.com",
+      "technologies": [
+        {
+          "class": "devicon-angularjs-plain",
+          "name": "Angular"
+        },
+        {
+          "class": "devicon-typescript-plain",
+          "name": "TypeScript"
+        },
+        {
+          "class": "devicon-csharp-plain",
+          "name": "C#"
+        }
+      ]
+    },
+    
+    {
+      "title": "TchidenXpress",
+      "startDate": "2018",
+      "description": "TchidenXpress is an Android application for online ",
+      "images": [
+        "videos/video.mp4",
+        "videos/video.mp4"
+      ],
+      "url": "https://github.com",
+      "technologies": [
+        {
+          "class": "devicon-react-original",
+          "name": "React"
+        },
+        {
+          "class": "devicon-javascript-plain",
+          "name": "JavaScript"
+        }
+      ]
+    }
+  ],
+  "experience": [
+    {
+      "company": "MatchProfessor Inc",
+      "title": "Project Manager",
+      "years": "2020 - 2021 Winter",
+      "className": "fab fa-php experience-icon",
+      "mainTech": [
+        "PHP"
+      ],
+      "technologies": [
+        "Stripe API",
+        "HTML/CSS",
+        "PHP",
+        "SCRUM",
+        "DevOps Azure",
+        "Github",
+        "Testing & Review meetings",
+        "Interviews"
+      ]
+    },
+    {
+      "company": "Alliance Française Halifax",
+      "title": "Front-End Developer",
+      "years": "2019 - 2020 Winter",
+      "className": "fab fa-android experience-icon",
+      "detail": "Collaborated with the Alliance Francaise Team in the development of their mobile application",
+      "mainTech": [
+        "Android Studio"
+      ],
+      "technologies": [
+        "REST API",
+        "Java",
+        "OpenStreetMap",
+        "GitLab"
+      ]
+    },
+    {
+      "company": "Dalhousie University",
+      "title": "Product Designer",
+      "years": "2018 - 2019 Winter",
+      "className": "fab fa-palette experience-icon",
+      "detail": "Collaborated with team Hexahedron Colliders in the development of a user interface for Rewards Application for Dalhousie Computer Science Society.",
+      "mainTech": [
+        "Adobe XD"
+      ],
+      "technologies": [
+        "Google Material Design",
+        "SCRUM",
+        "Interviews",
+        "GitLab"
+      ]
+    },
+    {
+      "company": "Hoyt's Moving And Storage",
+      "title": "Mover & Driver",
+      "className": "fab fa-people-carry experience-icon",
+      "years": "2018 - 2019 Summer",
+      "detail": "",
+      "mainTech": [
+        "N/A"
+      ],
+      "technologies": [
+        "N/A"
+      ]
+    }
+  ]
+}
